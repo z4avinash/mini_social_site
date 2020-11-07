@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	background-color: black;
+	padding: 10px;
+	font-family: "Patrick Hand", cursive;
+}
+
+nav > ul {
+	background-color: black;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+ul > a {
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+	list-style: none;
+}
+
+#branding {
+	margin-right: 10rem;
+	font-size: 2rem;
+}
+
+#search {
+	padding: 10px;
+	width: 30rem;
+	outline: none;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.container {
+	display: flex;
+	height: 80vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container > h1 {
+	margin-bottom: 5rem;
+	font-size: 4rem;
+	font-family: "Acme", sans-serif;
+}
+
+.container > h3 {
+	font-size: 2rem;
+	font-family: "Acme", sans-serif;
+}
